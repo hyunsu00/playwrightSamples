@@ -348,3 +348,12 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Java
+.classpath
+.project
+.settings/
+target/
+
+# nodejs
+package-lock.json

@@ -5,8 +5,8 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "playwrightSample01 실행",
-			"type": "node",
+			"name": "playwrightSample01",
+			"type": "pwa-node",
 			"request": "launch",
 			"skipFiles": [
 				"<node_internals>/**"
@@ -14,12 +14,18 @@
 			"program": "${workspaceFolder}\\playwrightSample01\\playwrightSAmple01.js"
 		},
 		{
-			"name": "playwrightSample02 실행",
+			"name": "playwrightSample02",
 			"type": "python",
 			"request": "launch",
-			"program": "${workspaceFolder}\\playwrightSample02\\playwrightSAmple02.py",
+			"program": "${workspaceFolder}\\playwrightSample02\\playwrightSample02.py",
 			"console": "integratedTerminal",
 			"justMyCode": false
 		}
+		{
+			"name": "playwrightSample03",
+			"type": "java",
+			"request": "launch",
+			"mainClass": "${workspaceFolder}\\playwrightSample03\\src\\main\\java\\playwrightSamples\\playwrightSample03.java"
+		},
 	]
 }

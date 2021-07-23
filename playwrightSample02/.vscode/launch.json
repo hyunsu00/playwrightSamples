@@ -5,11 +5,12 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "playwrightSample03",
-			"type": "java",
+			"name": "playwrightSample02",
+			"type": "python",
 			"request": "launch",
-			"mainClass": "playwrightSamples.playwrightSample03",
-			"projectName": "playwrightSample03"
+			"program": "${workspaceFolder}\\playwrightSample02.py",
+			"console": "integratedTerminal",
+			"justMyCode": false
 		}
 	]
 }
