@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <!-- POM 모델 버전이다. 이것은 "4.0.0"라고 설정한다. 당분간이 버전이 바뀔 것은 없다. -->
+  <modelVersion>4.0.0</modelVersion>
+  <!-- 그룹 ID이다. 프로젝트를 만들 때 입력했다. 제작자와 회사, 단체 등을 식별하기 위한 것이다. -->
+  <groupId>playwrightSamples</groupId>
+  <!-- 아티팩트 ID는 프로젝트에 할당한 고유 ID 이다. -->
+  <artifactId>playwrightSample03</artifactId>
+  <!-- 프로그램 버전이다. 기본적으로 1.0-SNAPSHOT이 설정되어 있다. -->
+  <version>0.1-SNAPSHOT</version>
+  <!-- 프로그램 이름이다. 아티팩트 ID를 그대로 지정하는 것이 많을 것이다. -->
+  <name>playwrightSample03</name>
+  <!-- 이 pom.xml에서 사용하는 속성 값 등을 모아 둔다. 이것은 필요에 따라 기술한다. -->
+  <properties>
+    <!-- 이 project.build.sourceEncoding라는 속성은 소스 코드의 기본 인코딩을 나타낸다. 일반적으로 UTF-8이 설정되어 있다. -->
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>com.microsoft.playwright</groupId>
+      <artifactId>playwright</artifactId>
+      <version>1.9.0-alpha-0</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

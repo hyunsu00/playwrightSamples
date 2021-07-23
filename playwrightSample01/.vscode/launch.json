@@ -5,21 +5,13 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "playwrightSample01 실행",
-			"type": "node",
+			"type": "pwa-node",
+			"name": "playwrightSample01",
 			"request": "launch",
 			"skipFiles": [
 				"<node_internals>/**"
 			],
-			"program": "${workspaceFolder}\\playwrightSample01\\playwrightSAmple01.js"
-		},
-		{
-			"name": "playwrightSample02 실행",
-			"type": "python",
-			"request": "launch",
-			"program": "${workspaceFolder}\\playwrightSample02\\playwrightSAmple02.py",
-			"console": "integratedTerminal",
-			"justMyCode": false
+			"program": "${workspaceFolder}\\playwrightSample01.js"
 		}
 	]
 }
